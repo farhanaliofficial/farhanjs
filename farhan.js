@@ -59,7 +59,7 @@ class Farhan{
 		let binTxt = "",
 		i = 0;
 		for(i=0; i<text.length; i++){
-			binTxt += this.bin(this.chr(text.charAt(i)))+' ';
+			binTxt += this.bin(this.ord(text.charAt(i)))+' ';
 		}
 		return binTxt;
 	}
