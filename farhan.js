@@ -16,7 +16,6 @@
  *
  * <script src="https://cdn.jsdelivr.net/gh/farhanaliofficial/farhanjs@main/farhan.js"></script>
  * 
- * Replace 'your-username/your-repo' with your GitHub username and repository name where you've hosted this library.
  *
  * License:
  * This library is released under the MIT License. See the LICENSE file for details.
