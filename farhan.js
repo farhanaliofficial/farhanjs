@@ -194,4 +194,18 @@ class Farhan{
 		}
 		return str;
 	}
+	validateDW(){
+		if(typeof document === undefined || typeof window === undefined){
+			throw new FarhanError("copy method requires a valid document and window");
+		}
+	}
+	copy(textE){
+		this.validateDW();
+		textE.select();
+		document.execCommand("copy");
+	}
+	_(q){
+		this.validateDW();
+		return document.querySelector(q);
+	}
 }
